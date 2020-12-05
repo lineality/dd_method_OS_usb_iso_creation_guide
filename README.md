@@ -1,17 +1,16 @@
 #### dd_method_OS_usb_iso_creation_guide
 # Create Bootable Media in 2 Steps 
 
-## Using Windows or MacOS? I recommend this tool:
-
+### Using Windows or MacOS? I recommend this tool:
 #### Fedora Media Writer (Windows/MacOS)
 https://getfedora.org/en/workstation/download/
-
 #### It is well made, safe, simple, installs any iso or removes (restoring the media). 
 
 
-# Using Linux: DD Method
-If you are using Linux (to make a bootable USB (et al) from an .iso or .img, you do this in two steps using the DD method in a linux terminal. 
 
+# Using Linux: DD Method
+
+#### If you are using Linux to make a bootable USB (et al) from an .iso or .img, you do this in two steps using the DD method in a linux terminal. 
 
 # Step 1. Get name of device
 
