@@ -50,13 +50,14 @@ $ dmesg
 
 ```
 $ sudo dd if=THE_NAME_OF_YOUR_FILE of=/dev/NAME_OF_YOUR_USB bs=8M status=progress oflag=direct
+```
 
 #### Note 1: You can change the details (and look online for other approaches) but this a standard set of parameters for DD.
 
 #### Note 2: The easiest way is to open a terminal where your .iso file is, but you can also put in the whole file path.
 
 #### Note 3: This will "destroy" whatever was on the drive you are pointing this at, so be careful to pick the correct drive! 
-```
+
 #### e.g.
 
 ```
