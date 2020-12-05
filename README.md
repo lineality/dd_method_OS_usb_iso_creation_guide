@@ -54,10 +54,19 @@ $ sudo dd if=THE_NAME_OF_YOUR_FILE of=/dev/NAME_OF_YOUR_USB bs=8M status=progres
 
 #### Note 3: This will "destroy" whatever was on the drive you are pointing this at, so be careful to pick the correct drive! 
 
+#### Note 4: I recommend copy and pasting form "dmesg" and "ls" the name of the drive and file into a line crafted in a text editor
+
+
+```
+Fill in the blanks: 
+
+$ sudo dd if=_____.iso of=/dev/sd_____ bs=8M status=progress oflag=direct
+```
+
 #### e.g.
 
 ```
-$ sudo dd if=fedora_36.iso of=/dev/sdX bs=8M status=progress oflag=direct
+$ sudo dd if=fedora_36.iso of=/dev/sdb bs=8M status=progress oflag=direct
 ```
 or
 ```
