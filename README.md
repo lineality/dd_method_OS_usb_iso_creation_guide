@@ -1,5 +1,5 @@
 #### dd_method_OS_usb_iso_creation_guide
-## Create Bootable Media in 2 Steps 
+# Create Bootable Media in 2 Steps 
 
 ## Using Windows or MacOS? I recommend this tool:
 
