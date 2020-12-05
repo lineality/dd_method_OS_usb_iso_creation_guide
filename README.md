@@ -22,9 +22,6 @@ $ dmesg
 #### Make sure you are writing to the correct drive/device/media. Run 'dmesg' in a terminal to see what the name of the USB (which you inserted into your computer) is called
 
 
-
-
-```
 #### The output will look something like this:
 ```
 [  251.091225] usb-storage 3-7:1.0: USB Mass Storage device detected
